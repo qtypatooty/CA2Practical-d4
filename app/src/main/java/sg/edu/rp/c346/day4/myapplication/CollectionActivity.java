@@ -10,7 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-// Referenced from https://edurank.org/.
+// Referenced from https://edurank.org/
 public class CollectionActivity extends AppCompatActivity {
     TextView tnus;
     TextView tsmu;
