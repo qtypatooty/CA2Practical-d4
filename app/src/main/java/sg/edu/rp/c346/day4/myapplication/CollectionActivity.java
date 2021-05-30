@@ -41,9 +41,9 @@ public class CollectionActivity extends AppCompatActivity {
                 intent.putExtra("Status", "Public");
                 intent.putExtra("Degree", "Doctorate");
                 intent.putExtra("Contact", "+65 6516 6666");
-                intent.putExtra("Address", "21 Lower Kent Ridge Roa, Singapore 119077");
+                intent.putExtra("Address", "21 Lower Kent Ridge Road, Singapore 119077");
                 intent.putExtra("Website", "https://www.nus.edu.sg/");
-                intent.putExtra("Geo", "geo:1.2966860033808236, 103.77649682897287");
+                intent.putExtra("Geo", "geo:1.2967480599100976, 103.77650142342308");
                 startActivity(intent);
 
             }
