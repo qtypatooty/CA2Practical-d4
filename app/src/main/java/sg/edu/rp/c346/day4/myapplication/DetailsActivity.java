@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class DetailsActivity extends AppCompatActivity {
-
+    TextView websites;
     TextView details;
     TextView addresses;
     TextView contacts;
@@ -28,11 +28,13 @@ public class DetailsActivity extends AppCompatActivity {
         details = findViewById(R.id.details);
         addresses = findViewById(R.id.addresses);
         contacts = findViewById(R.id.contacts);
+        websites= findViewById(R.id.websites);
         goback = findViewById(R.id.goback);
         Intent intentReceived = getIntent();
         registerForContextMenu(details);
         registerForContextMenu(contacts);
         registerForContextMenu(addresses);
+        registerForContextMenu(websites);
         String name = intentReceived.getStringExtra("Name");
         String rank = intentReceived.getStringExtra("Rank");
         String type = intentReceived.getStringExtra("Type");
@@ -48,9 +50,10 @@ public class DetailsActivity extends AppCompatActivity {
         String geo = intentReceived.getStringExtra("Geo");
 
         details.setText(" Name:          " + name + "\n Rank:          " + rank + " \n Type:          " + type + "\n Funding:          " + funding + "\n Acceptance Rate:          " + rate + "\n Enrollment:          " + enrollment
-                + "\n Status:          " + status + "\n Degree:          " + degree +  "\n Contact:          " + contact + "\n Website:          " + website);
+                + "\n Status:          " + status + "\n Degree:          " + degree +  "\n Contact:          " + contact );
         addresses.setText(" Address:          " + address );
         contacts.setText(" Contact:          " + contact );
+        websites.setText(" Website:          " + website );
         goback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -94,14 +97,17 @@ public class DetailsActivity extends AppCompatActivity {
             details.setTextSize(22);
             contacts.setTextSize(22);
             addresses.setTextSize(22);
+            websites.setTextSize(22);
         } else if (id == R.id.Small) {
             details.setTextSize(12);
             contacts.setTextSize(12);
             addresses.setTextSize(12);
+            websites.setTextSize(12);
         } else{
             details.setTextSize(14);
             contacts.setTextSize(14);
             addresses.setTextSize(14);
+            websites.setTextSize(14);
         }
         return super.onContextItemSelected(item);
     }

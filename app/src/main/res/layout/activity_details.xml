@@ -5,17 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    android:orientation="vertical"
-    tools:context=".ap">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/websites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:autoLink="web"
         android:clickable="true"
-        android:text="TextView"
-        android:textColor="#FFFFFF"
+        android:textColor="#3856FF"
         android:textColorLink="#3856FF"
         android:textStyle="bold" />
 
@@ -24,8 +29,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:lineSpacingExtra="96sp"
-        android:text="TextView"
         android:textColor="#3856FF"
         android:textStyle="bold" />
 
@@ -34,7 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:text="TextView"
         android:textColor="#3856FF"
         android:textStyle="bold" />
 
