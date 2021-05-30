@@ -17,7 +17,7 @@
         android:gravity="center"
         android:text="@string/nus"
         android:textColor="#3F51B5"
-        />
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/tntu"
@@ -27,7 +27,8 @@
         android:background="#3F51B5"
         android:gravity="center"
         android:text="@string/ntu"
-        android:textColor="#FF0000" />
+        android:textColor="#FF0000"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/tsmu"
@@ -37,7 +38,8 @@
         android:background="#FFE500"
         android:gravity="center"
         android:text="@string/smu"
-        android:textColor="#1031EC" />
+        android:textColor="#1031EC"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/tsit"
@@ -47,7 +49,8 @@
         android:background="#000000"
         android:gravity="center"
         android:text="@string/sit"
-        android:textColor="#FFFBFB"" />
+        android:textColor="#FFFBFB"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/tsutd"
@@ -58,7 +61,7 @@
         android:gravity="center"
         android:text="@string/sutd"
         android:textColor="#FF0000"
-        />
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/tsuss"
@@ -69,6 +72,6 @@
         android:gravity="center"
         android:text="@string/suss"
         android:textColor="#3F51B5"
-        />
+        android:textSize="24sp"/>
 
 </LinearLayout>
