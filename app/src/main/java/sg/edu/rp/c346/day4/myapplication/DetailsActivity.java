@@ -49,7 +49,7 @@ public class DetailsActivity extends AppCompatActivity {
         String geo = intentReceived.getStringExtra("Geo");
 
         details.setText(" Name:          " + name + "\n Rank:          " + rank + " \n Type:          " + type + "\n Funding:          " + funding + "\n Acceptance Rate:          " + rate + "\n Enrollment:          " + enrollment
-                + "\n Status:          " + status + "\n Degree:          " + degree +  "\n Contact:          " + contact );
+                + "\n Status:          " + status + "\n Degree:          " + degree);
         addresses.setText(" Address:          " + address );
         contacts.setText(" Contact:          " + contact );
         websites.setText(" Website:          " + website );
