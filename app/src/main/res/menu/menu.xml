@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/Small"
+    android:orderInCategory="100"
+    android:title="Small" />
+    <item
+        android:id="@+id/Big"
+        android:orderInCategory="101"
+        android:title="Big" />
+    <item
+        android:id="@+id/Original"
+        android:orderInCategory="101"
+        android:title="Revert back to normal" />
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CollectionActivity">
+
+    <TextView
+        android:id="@+id/tnus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:text="@string/nus"
+        android:textColor="#3F51B5"
+        />
+
+    <TextView
+        android:id="@+id/tntu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="@string/ntu"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tsmu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFE500"
+        android:gravity="center"
+        android:text="@string/smu"
+        android:textColor="#1031EC" />
+
+    <TextView
+        android:id="@+id/tsit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/sit"
+        android:textColor="#FFFBFB"" />
+
+    <TextView
+        android:id="@+id/tsutd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="@string/sutd"
+        android:textColor="#FF0000"
+        />
+
+    <TextView
+        android:id="@+id/tsuss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#F0EF1D1D"
+        android:gravity="center"
+        android:text="@string/suss"
+        android:textColor="#3F51B5"
+        />
+
+</LinearLayout>
