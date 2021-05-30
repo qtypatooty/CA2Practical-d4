@@ -19,7 +19,6 @@ public class DetailsActivity extends AppCompatActivity {
     TextView addresses;
     TextView contacts;
     Button goback;
-    String wordClicked = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
